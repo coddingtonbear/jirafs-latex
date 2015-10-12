@@ -48,6 +48,7 @@ setup(
     entry_points={
         'jirafs_plugins': [
             'latex = jirafs_latex.plugin:Latex',
+            'latex_block = jirafs_latex.plugin:LatexBlock',
         ]
     },
 )
